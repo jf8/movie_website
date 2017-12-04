@@ -1,5 +1,9 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 '''This program uses fresh_tomatoes and media.py to generate a html file
 containing a group of movies with posters and trailers.'''
+
 
 import media
 import fresh_tomatoes
@@ -13,7 +17,7 @@ iron_man = media.Movie('Iron Man',
                         'suit and uses it to combat crime and terrorism.'),
                        ('https://upload.wikimedia.org/wikipedia/en/7/70/'
                         'Ironmanposter.JPG'),
-                       'https://www.youtube.com/watch?v=8OCJRbzdzaU',
+                       'https://www.youtube.com/watch?v=8hYlB38asDY',
                        '2008')
 
 
@@ -49,7 +53,7 @@ space_camp = media.Movie('Space Camp',
                           ' when they attend space camp.'),
                          ('https://upload.wikimedia.org/wikipedia/en/b/b2/'
                           'Space_camp_-_1986_Poster.png'),
-                         'https://www.youtube.com/watch?v=0Umy8VTiKG4',
+                         'https://www.youtube.com/watch?v=9TDNny6h9nw',
                          '1986')
 
 
@@ -58,7 +62,7 @@ iron_eagle = media.Movie('Iron Eagle',
                           ' to rescue his father.'),
                          ('https://upload.wikimedia.org/wikipedia/en/0/04/'
                           'Iron_eagle.jpg'),
-                         'https://www.youtube.com/watch?v=3npr0RKBucc',
+                         'https://www.youtube.com/watch?v=vSR6sxi1RTo',
                          '1986')
 
 # List of movies to display on page in alphabetical order.
