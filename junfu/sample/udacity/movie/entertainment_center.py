@@ -4,7 +4,6 @@
 '''This program uses fresh_tomatoes and media.py to generate a html file
 containing a group of movies with posters and trailers.'''
 
-
 import media
 import fresh_tomatoes
 
