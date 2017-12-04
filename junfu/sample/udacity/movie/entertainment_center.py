@@ -5,6 +5,8 @@ import media
 import fresh_tomatoes
 
 
+#用数据实例化moive对象
+
 iron_man = media.Movie('Iron Man',
                        ('A billionaire industrialist and genius inventor, '
                         'Tony Stark (Robert Downey Jr.), builds an armored '
@@ -67,5 +69,6 @@ movies = [back_to_the_future,
           tron,
           tron_legacy]
 
+#即文件作为脚本直接执行才会被执行，而import到其他脚本中是不会被执行的
 if __name__ == '__main__':
     fresh_tomatoes.open_movies_page(movies)
